@@ -1,0 +1,22 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+django = "*"
+django-allauth = "*"
+django-crispy-forms = "*"
+django-tinymce4-lite = "*"
+gunicorn = "*"
+pillow = "*"
+psycopg2-binary = "*"
+pylint = "*"
+requests = "*"
+requests-oauthlib = "*"
+six = "*"
+
+[requires]
+python_version = "3.6"
